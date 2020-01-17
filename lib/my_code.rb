@@ -24,8 +24,8 @@ def reduce_to_total(source_array)
   #return source_array.reduce(100) {|sum, n| sum + n}
 end
 
-def reduce_to_total(source_array, starting_point = "value")
-  return source_array.reduce(value) {|sum, n| sum + n}
+def reduce_to_total(source_array, starting_point)
+  return source_array.reduce(100) {|sum, n| sum + n}
 end
 
 #def reduce_to_total(source_array, starting_point = 0)
