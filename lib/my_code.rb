@@ -30,15 +30,15 @@ def reduce_to_total(source_array, starting_point=0)
   return source_array.reduce() {|sum, n| sum + n}
 end
 
-#def reduce_to_total(source_array, starting_point = 0)
-  #new_array = []
-  #index = 0
-  #while index < array.size do
-    #new_array.push(source_array[index.sum])
-    #index += 1
-  #end
-  #new_array
-#end
+def reduce_to_total(source_array, starting_point = 0)
+  total = starting_point
+  index = 0
+  while index < array.size do
+    new_array.push(source_array[index.sum])
+    index += 1
+  end
+  new_array
+end
 
 
 def reduce_to_all_true(source_array)
