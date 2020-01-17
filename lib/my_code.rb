@@ -33,11 +33,11 @@ end
 def reduce_to_total(source_array, starting_point = 0)
   total = starting_point
   index = 0
-  while index < array.size do
+  while index < source_array.size do
     new_array.push(source_array[index.sum])
     index += 1
   end
-  new_array
+  total
 end
 
 
