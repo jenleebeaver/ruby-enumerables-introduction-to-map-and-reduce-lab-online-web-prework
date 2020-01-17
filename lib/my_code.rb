@@ -30,6 +30,13 @@ end
 
 def reduce_to_total(source_array)
   new_array = []
+  index = 0
+  while index < array.size do
+    new_array.push(source_array[index.sum])
+    index += 1
+  end
+  new_array
+end 
   
 
 def reduce_to_all_true(source_array)
