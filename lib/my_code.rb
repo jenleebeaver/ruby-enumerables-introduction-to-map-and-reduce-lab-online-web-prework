@@ -20,7 +20,7 @@ def map_to_square(array)
 end
 
 def reduce_to_total(source_array)
-  return source_array.reduce { |sum, n| sum + n }
+  return source_array.reduce(n, 100) { |sum, n| sum + n }
   #return source_array.reduce(100) {|sum, n| sum + n}
 end
 
