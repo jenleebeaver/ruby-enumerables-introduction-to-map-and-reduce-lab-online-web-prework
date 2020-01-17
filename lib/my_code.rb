@@ -28,7 +28,7 @@ def reduce_to_total(source_array, starting_point)
   return source_array.reduce(100) {|sum, n| sum + n}
 end
 
-def reduce_to_total(source_array)
+def reduce_to_total(source_array, starting_point)
   new_array = []
   index = 0
   while index < array.size do
