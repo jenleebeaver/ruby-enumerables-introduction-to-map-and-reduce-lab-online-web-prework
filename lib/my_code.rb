@@ -19,10 +19,6 @@ def map_to_square(array)
   return new_array
 end
 
-#def reduce_to_total(source_array)
-  #return source_array.reduce(n, 100) { |sum, n| sum + n }
-  #return source_array.reduce(100) {|sum, n| sum + n}
-#end
 
 def reduce_to_total(source_array, starting_point=0)
   return source_array.reduce() {|sum, n| sum + n}
